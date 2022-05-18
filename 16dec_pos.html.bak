@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .parent
+        {
+            height: 600px;
+            width: 600px;
+            border: black 1px solid;
+			padding:30px;
+        }
+        .child_1
+        {
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to bottom ,red ,yellow 30%,aqua,pink);
+
+			position:relative;
+		}
+        
+			
+		
+			  .child_2
+        {
+            height: 200px;
+            width: 200px;
+            
+			position:relative;
+		     background-image: linear-gradient(to right ,red ,yellow 30%,aqua,pink);
+		}
+        
+		
+			  .child_3
+        {
+            height: 200px;
+            width: 200px;
+            
+			position:absolute;
+			left:400px;
+			top:40px;
+		     background-image: radial-gradient(red 10%,yellow,green,blue 50%);
+
+
+		}
+		.child_4
+        {
+            height: 200px;
+            width: 200px;
+			position:absolute;
+			left:400px;
+			top:31px;
+            background-image: linear-gradient(to bottom ,red ,yellow 30%,aqua,pink);
+
+		}
+        
+		
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child_1">TOP TO BOTTOM</div>   <br><br><br><br>
+        <div class="child_2">LEFT TO RIGHT </div>   <br><br><br>
+        <div class="child_3">BBBBBBBBBBBBB</div>
+		<div class="child_4">AAAAAAAAAAAA</div>
+		<div class="child_5">Navjeet kaur</div>
+		
+    </div>
+</body>
+</html>

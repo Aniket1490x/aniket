@@ -1,0 +1,32 @@
+
+topics: CSS
+
+--z-index--
+		0-default
+		-ve-- to keep it below the another div
+		+ve-- to keep it above the another div
+
+1. overflow: visible, hidden, scroll, auto
+2. overflow-wrap: normal, anywhere, break-word
+3. outline (border)
+4. table styling
+5. gradients-
+
+---- linear gradient
+syntax: 
+background-image: linear-gradient(direction, color-stop1, color-stop2,......)
+
+direction---> top to bottom, left to right
+
+----radial gradient
+
+background-image: radial-gradient(shape size at position, color-stop1, color-stop2,......)
+
+
+
+
+
+
+
+
+
